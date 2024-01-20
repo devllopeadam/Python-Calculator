@@ -1,6 +1,4 @@
 import tkinter as tk
-from tkinter import ttk
-import customtkinter as ctk
 
 
 window = tk.Tk()
@@ -137,9 +135,6 @@ equalBtn = tk.Button(
 )
 equalBtn.grid(row=4, column=2, columnspan=2, padx=10, pady=10, sticky="news")
 
-###########################
-#########The Result########
-###########################
 
 numberButtons = [
     seven,
