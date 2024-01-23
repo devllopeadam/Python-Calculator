@@ -70,8 +70,8 @@ eResult.pack(ipady=5, padx=10, pady=10)
 
 # Entry Frame
 buttons = tk.Frame(width=350, height=500, background="#3a4452")
-buttons.rowconfigure((0, 1, 2, 3, 4), weight=1)
-buttons.columnconfigure((0, 1, 2, 3), weight=1)
+buttons.rowconfigure((0, 1, 2, 3, 4), weight=1, uniform="a")
+buttons.columnconfigure((0, 1, 2, 3), weight=1, uniform="a")
 buttons.pack(fill="both", padx=10, pady=20, expand=True)
 
 
